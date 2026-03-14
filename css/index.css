@@ -16,7 +16,7 @@
         
     }
 
-    header{
+    nav{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -25,10 +25,21 @@
 
     }
 
-    header ul li a{
-        list-style-type: none;
+     nav a{
         text-decoration: none;
         color: black;
+
+    }
+
+    nav ul{
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin:0;
+    }
+
+    nav li{
+        list-style-type: none;
     }
 
     main{
@@ -41,11 +52,23 @@
         align-items: center;
     }
 
-    .content{
+    #tim{
+        display: flex;
+        flex-direction: column;
         background-color: cadetblue;
         padding: 20px;
         border: 1px solid black;
-        gap: 20;
+        gap: 20px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 250px;
+        background-color: cadetblue;
+        padding: 20px;
+        border: 1px solid black;
+        gap: 20px;
     }
     
     footer{
@@ -89,14 +112,23 @@
     nav a{
         text-decoration: none;
         color: black;
+
     }
 
-    nav ul li{
+    nav ul{
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin:0;
+    }
+
+    nav li{
         list-style-type: none;
     }
 
     main{
         display: flex;
+        flex-direction: column;
         background-color: blueviolet;
         flex-grow: 1;
         padding: 20px;
@@ -104,11 +136,24 @@
         align-items: center;
     }
 
-    .content{
+    #tim{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         background-color: cadetblue;
         padding: 20px;
         border: 1px solid black;
-        gap: 20;
+        gap: 20px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 250px;
+        background-color: cadetblue;
+        padding: 20px;
+        border: 1px solid black;
+        gap: 20px;
     }
     
     footer{
@@ -152,14 +197,23 @@
     nav a{
         text-decoration: none;
         color: black;
+
     }
 
-    nav ul li{
+    nav ul{
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin:0;
+    }
+
+    nav li{
         list-style-type: none;
     }
 
     main{
         display: flex;
+        flex-direction: column;
         background-color: blueviolet;
         flex-grow: 1;
         padding: 20px;
@@ -167,11 +221,24 @@
         align-items: center;
     }
 
-    .content{
+    #tim{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         background-color: cadetblue;
         padding: 20px;
         border: 1px solid black;
-        gap: 20;
+        gap: 20px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 1 250px;
+        background-color: cadetblue;
+        padding: 20px;
+        border: 1px solid black;
+        gap: 20px;
     }
     
     footer{
